@@ -3,6 +3,7 @@ hola_mundo.py
 
 Una aplicación simple de "Hola, Mundo!" siguiendo la guía de estilo PEP 8.
 """
+import datetime
 import random
 
 def print_hello_world() -> None:
@@ -47,14 +48,20 @@ def play_rock_paper_scissors() -> None:
         else:
             print(f"El pc saca {options[pc_input]}, tú ganas!")
 
-def main():
+def show_actual_datetime() -> None:
+    """Muestra en pantalla la fecha y la hora al momento de llamar la función."""
+    now = datetime.datetime.now()
+    print(f"Ahora son las {now.strftime('%H:%M:%S')} del {now.strftime('%d/%m/%Y')}")
+
+def main() -> None:
     """Función principal para seleccionar y ejecutar funcionalidades."""
     while True:
         print("\nSeleccione una funcionalidad:")
         print("1. Imprimir 'Hola, Mundo!'")
         print("2. Jugar a la ruleta rusa")
         print("3. Jugar Cachipun")
-        print("4. Salir")
+        print("4. Mostrar la fecha y la hora")
+        print("5. Salir")
 
         choice = input("Ingrese el número de su elección: ")
 
@@ -65,6 +72,8 @@ def main():
         elif choice == "3":
             play_rock_paper_scissors()
         elif choice == "4":
+            show_actual_datetime()
+        elif choice == "5":
             print("Saliendo del programa...")
             break
         else:
