@@ -11,8 +11,8 @@ Esta es una aplicación simple de "Hola, Mundo!" con funcionalidades adicionales
 
 ## Desarrolladores
 
-- Vicente: Implementación de la funcionalidad "Jugar a la ruleta rusa"
-- Nicolas: Implementación de la funcionalidad "Jugar Cachipun" y "Mostrar la fecha y la hora actuales"
+- Vicente Pinochet: Implementación de la funcionalidad "Jugar a la ruleta rusa"
+- Nicolas Acevedo: Implementación de la funcionalidad "Jugar Cachipun" y "Mostrar la fecha y la hora actuales"
 
 ## Cómo usar
 
@@ -36,4 +36,4 @@ Este comando descubrirá y ejecutará todas las pruebas unitarias definidas en e
 
 ## Enlace al Repositorio
 
-[Enlace al repositorio](https://github.com/tu-repo/hello-world-group-project)
+[Enlace al repositorio](https://github.com/Qajirr/Progra-avanzada-Tarea4)
