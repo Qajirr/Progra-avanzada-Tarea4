@@ -32,7 +32,7 @@ Para ejecutar las pruebas unitarias y verificar que todas las funcionalidades fu
     python -m unittest discover -s tests
     ```
 
-Este comando descubrirá y ejecutará todas las pruebas unitarias definidas en el archivo `test_hello_world.py`.
+Este comando descubrirá y ejecutará todas las pruebas unitarias definidas en el archivo `test.py`.
 
 ## Enlace al Repositorio
 
